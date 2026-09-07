@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "asOf": null,
+  "stale": true,
+  "market": "US",
+  "sourceOfTruth": "Live broker/MCP state overrides this file",
+  "strategyPolicy": {
+    "targetAllocationPct": {
+      "LONG": 50,
+      "SWING": 30,
+      "INTRADAY": 20
+    },
+    "minimumCashPct": 25,
+    "maxAIExposurePctOfRiskBudget": 75,
+    "maxSinglePositionPct": {
+      "LONG": 30,
+      "SWING": 20,
+      "INTRADAY": 10
+    },
+    "intradayMinimumExpectedRewardRisk": 2.0,
+    "averagingDownAllowed": false
+  },
+  "aiAttributedPositions": [],
+  "restrictedExternalPositions": [],
+  "lastDecision": null,
+  "nextCheckAt": null,
+  "notes": [
+    "Initialize from fresh broker data before using position/cash fields.",
+    "Never store credentials, account numbers, tokens, passwords, or personal identifiers."
+  ]
+}
